@@ -1,65 +1,42 @@
-# Intern-challenge
+# MERN STACK SOCIAL MEDIA
 
-# MERN Stack Dashboard Coding Challenge
+This project is a dashboard application built using the MERN stack (MongoDB, Express, React, Node.js). It includes user authentication and profile management, allowing users to sign up, log in, and manage their profiles. Users can participate in a community forum by creating posts and commenting on others' posts. A score tracker system rewards users with points for their activities, displayed on their profiles. Users can share their achievements on social media through integrated sharing buttons. The application features a responsive UI, ensuring accessibility and usability across various devices.
 
-## Objective
-Create a dashboard using the MERN (MongoDB, Express, React, Node.js) stack that includes the following features:
-- User authentication and profile management
-- A community forum for users to share posts and comments
-- A score tracker to keep track of user achievements
-- Functionality for users to share their scores and achievements
-- A responsive UI
+## Technologies used:
+1. MERN stack is used for building the website.
+2. 'cors' is used in the backend and 'axios' in the frontend to connect with  each other.
+3. Bootstrap is used for designing the frontend.
+4. Cloudinary is used to store the images in the cloud.
 
-## Requirements
+## Steps to run the project locally:
+1. Fork the repository.
+2. Clone it to the local environment.
+3. Install dependencies for the backend by going to 'backend' directory and running: `npm install`.
+4. Install dependencies for the frontend by going to 'frontend' directory and running: `npm install`.
+5. Create a 'config' folder in the 'backend' directory and create a 'config.env' file in it.
+6. There, write these values: PORT, MONGO_URI, DATABASE_NAME, FRONTEND_URL, JWT_SECRET_KEY, JWT_EXPIRES, COOKIE_EXPIRE, CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_SECRET and CLOUDINARY_API_KEY.
+7. Keep the variable names same, otherwise, you have to change the main code base.
+8. Here, I have assumed that the frontend is running on default port, i.e., 5173 and backend is also running on default port, i.e., 4000. If this is not the case for you, then change FRONTEND_URL in backend and the links in the frontend accordingly.
+
+## Feactures:
 1. **User Authentication and Profile Management:**
-   - Users should be able to sign up, log in, and log out.
-   - Each user should have a profile page displaying their information and scores.
+   - Users are able to sign up, log in, and log out.
+   - Each user have a profile page displaying their information and scores.
 
 2. **Community Forum:**
-   - Users should be able to create posts and comment on others' posts.
-   - Posts should display the author, timestamp, and content.
-   - Comments should display the author, timestamp, and content.
+   - Users are able to create posts and comment on others' posts.
+   - Posts display the author, timestamp, and content.
+   - Comments display the author, timestamp, and content.
 
 3. **Score Tracker:**
-   - Users should have a score tracker on their profile.
-   - Implement a system for users to earn points through predefined actions (e.g., posting, commenting).
+   - Users have a score tracker on their profile.
+   - Implemented a system for users to earn points through predefined actions (e.g., posting, commenting).
 
 4. **Sharing Achievements:**
-   - Users should be able to share their scores and achievements on social media platforms.
-   - Implement social media sharing buttons on the user's profile page.
+   - Users are able to share their scores and achievements on social media platforms.
+   - Implemented social media sharing buttons on the user's profile page.
 
 5. **Responsive UI:**
-   - Ensure the application is responsive and works well on different screen sizes.
+   - The application is responsive and works well on different screen sizes.
 
-## Instructions
-1. **Fork this repository** to your own GitHub account.
-2. **Clone your forked repository** to your local machine.
-3. Create the MERN stack application implementing the requirements mentioned above.
-4. **Document your code** and include a `README.md` file with:
-   - Instructions on how to set up and run your application.
-   - Explanation of the technologies and libraries used.
-   - Any additional features or enhancements you have implemented.
-5. **Push your code** to your forked repository on GitHub.
-6. Submit the link to your forked repository.
-
-## Evaluation Criteria
-- **Code Quality:** Clean, readable, and well-documented code.
-- **Functionality:** Implementation of all the required features.
-- **UI/UX:** A responsive and user-friendly interface.
-- **Creativity:** Any additional features or enhancements beyond the basic requirements.
-- **Git Usage:** Clear commit history and use of branches.
-
-## Submission Deadline
-Please submit your solution by June 20th.
-
-## Getting Started
-### Prerequisites
-- Node.js
-- MongoDB
-- Git
-
-### Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-github-username/mern-dashboard-challenge.git
-   cd mern-dashboard-challenge
+Give a good read to the project and try out on local environment. Hope you like it!! 
