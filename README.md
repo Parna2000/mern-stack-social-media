@@ -14,9 +14,10 @@ This project is a dashboard application built using the MERN stack (MongoDB, Exp
 3. Install dependencies for the backend by going to 'backend' directory and running: `npm install`.
 4. Install dependencies for the frontend by going to 'frontend' directory and running: `npm install`.
 5. Create a 'config' folder in the 'backend' directory and create a 'config.env' file in it.
-6. There, write these values: PORT, MONGO_URI, DATABASE_NAME, FRONTEND_URL, JWT_SECRET_KEY, JWT_EXPIRES, COOKIE_EXPIRE, CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_SECRET and CLOUDINARY_API_KEY.
+6. There, write these variables and assign values to them: PORT=4000, MONGO_URI, DATABASE_NAME, FRONTEND_URL, JWT_SECRET_KEY, JWT_EXPIRES, COOKIE_EXPIRE, CLOUDINARY_CLOUD_NAME, CLOUDINARY_API_SECRET and CLOUDINARY_API_KEY.
 7. Keep the variable names same, otherwise, you have to change the main code base.
-8. Here, I have assumed that the frontend is running on default port, i.e., 5173 and backend is also running on default port, i.e., 4000. If this is not the case for you, then change FRONTEND_URL in backend and the links in the frontend accordingly.
+8. Here, I have assumed that the frontend is running on default port, i.e., 5173 and backend is running on port  4000. If this is not the case for you, then change FRONTEND_URL in backend and the links in the frontend accordingly.
+9. Go the the backend and frontend directories and run `npm run dev` to start them in respective ports.
 
 ## Feactures:
 1. **User Authentication and Profile Management:**
